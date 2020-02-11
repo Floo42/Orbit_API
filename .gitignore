@@ -1,0 +1,6 @@
+Orbit_sim/params.py
+.idea/
+venv/
+
+__pycache__/
+migrations/
