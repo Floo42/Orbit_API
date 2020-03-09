@@ -24,6 +24,9 @@ class LaunchParamsSerializer(serializers.ModelSerializer):
 
 
 class ResultSerializer(serializers.ModelSerializer):
+    start_params = StartParamsSerializer()
+    launch_params = LaunchParamsSerializer()
+
     class Meta:
         model = Result
         fields = '__all__'
