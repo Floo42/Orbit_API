@@ -1,8 +1,3 @@
-import json
-
-from django.core import serializers
-from django.http import HttpResponse, HttpResponseBadRequest, JsonResponse
-from django.shortcuts import render, get_object_or_404
 from rest_framework import viewsets
 
 from api.serializers import CelestialBodySerializer, LaunchParamsSerializer, StartParamsSerializer, ResultSerializer
